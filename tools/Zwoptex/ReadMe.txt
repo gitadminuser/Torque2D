@@ -7,7 +7,7 @@ This read me contains instructions for adding a new template to Zwoptex, allowin
 5. Rename to T2D
 6. Change the extension to .asset.taml
 7. Copy the following to the source box:
-
+ 
 <ImageAsset
     AssetName="{{ metadata.target.name }}"
     ImageFile="@assetFile={{ metadata.target.textureFileName }}{{ metadata.target.textureFileExtension }}">
